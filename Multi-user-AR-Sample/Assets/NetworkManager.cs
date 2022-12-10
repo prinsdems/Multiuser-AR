@@ -32,7 +32,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
         if (PhotonNetwork.PlayerList.Length <= 4)
         {
             PhotonNetwork.JoinRoom(roomName);
-            Debug.Log("Successfully Joined Room");
+            
         }
     }
     [PunRPC]

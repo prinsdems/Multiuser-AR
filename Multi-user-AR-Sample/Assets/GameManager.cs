@@ -68,6 +68,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         pickedSpawnIndex.Add(rand);
         GameObject playerObject = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[rand].position, Quaternion.identity);
         //intialize the player
+        playerObject.transform.Rotate(-90, 90, 0);
         PlayerController playerScript = playerObject.GetComponent<PlayerController>();
         playerScript.photonView.RPC("Initialize", RpcTarget.All, PhotonNetwork.LocalPlayer);
     }

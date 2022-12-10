@@ -114,6 +114,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
         bullet.transform.localScale = new Vector3(0.01f, 0.01f, 0.01f);
         rb.AddForce(this.transform.forward * 300f);
         Destroy(bullet, 1);
+
+
     }
 
     private void OnTriggerEnter(Collider other)

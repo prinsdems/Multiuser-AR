@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Thesis/Unity-Photon-Sample-Project/Multi-user-AR-Sample/multi-userARtest.apk
+C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/multi-userARtest.apk
 SceneListBegin?
 Assets/Main.unity
 Assets/Game.unity

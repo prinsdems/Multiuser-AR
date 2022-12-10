@@ -42,6 +42,7 @@ public class MenuManager : MonoBehaviourPunCallbacks
     {
         NetworkManager.instance.JoinRoom(roomNameInput.text);
         roomName.text = roomNameInput.text;
+        
     }
     public void OnPlayerNameUpdate(Text playerNameInput)
     {
@@ -51,6 +52,7 @@ public class MenuManager : MonoBehaviourPunCallbacks
     {
         SetMenu(lobbyMenu);
         photonView.RPC("UpdateLobbyUI", RpcTarget.All);
+        Debug.Log("Successfully Joined Room");
     }
     public override void OnPlayerLeftRoom(Player otherPlayer)
     {
