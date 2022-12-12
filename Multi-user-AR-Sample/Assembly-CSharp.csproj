@@ -62,6 +62,93 @@
   <ItemGroup>
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\MenuManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Charts\PieChart.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Charts\PieChartEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuContent.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuContentEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuContentMobile.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Context Menu\ContextMenuSubMenu.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoElementSway.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoElementSwayParent.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\DemoListShadow.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\InputSystemChecker.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Demo\LaunchURL.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\CustomDropdown.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\CustomDropdownEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelect.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Dropdown\DropdownMultiSelectEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Editor Handlers\MUIPEditorHandler.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Horizontal Selector\HorizontalSelector.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Horizontal Selector\HorizontalSelectorEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\AnimatedIconHandler.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconLibrary.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconLibraryEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Icon\IconManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Input Field\CustomInputField.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Layout Group\LayoutGroupFix.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Layout Group\RadialLayoutGroup.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Layout Group\RadialLayoutGroupEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListView.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListViewEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListViewItem.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\ListView\ListViewRow.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Modal Window\ModalWindowManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Notification\NotificationStacking.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\PBFilled.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\ProgressBar.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Progress Bar\ProgressBarEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\Ripple.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\UIGradient.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Rendering\UIGradientEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RadialSlider.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RadialSliderEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeMaxSlider.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeMinSlider.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\RangeSlider.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\SliderInput.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\SliderManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Slider\SliderManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Switch\SwitchManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Switch\SwitchManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Toggle\CustomToggle.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipContent.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Tooltip\TooltipManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerAnimatedIcon.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButton.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerButtonEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerContextMenu.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerDropdown.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerDropdownItem.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerHSelector.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerInputField.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerModalWindow.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerNotification.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerPieChart.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBar.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoop.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerProgressBarLoopEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerScrollbar.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSlider.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSliderEditor.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerSwitch.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerToggle.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerTooltip.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\UI Manager\UIManagerWindowManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowDragger.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManager.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManagerButton.cs" />
+    <Compile Include="Assets\Modern UI Pack\Scripts\Window\WindowManagerEditor.cs" />
     <Compile Include="Assets\NetworkManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
@@ -178,6 +265,8 @@
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
@@ -188,9 +277,12 @@
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\Projectors\Guidelines.txt" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\ImageEffects\Readme.txt" />
     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\Modern UI Pack\Read Me.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUV420P_YUVYV12.cginc" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
@@ -203,54 +295,69 @@
     <None Include="Assets\Vuforia\Shaders\VuforiaVideoBackground.cginc" />
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Fonts\OpenSans\License!.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Vuforia\Shaders\ClippingMask.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Lean\READ ME.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
     <None Include="Assets\Photon\PhotonChat\Demos\DemoChat\Files\eurof_tt.txt" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Vuforia\Shaders\VuforiaVB_RGB.cginc" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
     <None Include="Assets\StreamingAssets\Vuforia\Multiuser-AR.xml" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Unity-Standard-Assets-master\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -454,13 +561,13 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Photon3Unity3D">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll</HintPath>
     </Reference>
     <Reference Include="websocket-sharp">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Github/Multiuser-AR/Multi-user-AR-Sample/Library/PackageCache/com.unity.analytics@3.2.3/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -845,6 +952,10 @@
       <Project>{9866BE8B-1AB1-E04E-2DAC-F77D5DAC1352}</Project>
       <Name>PhotonUnityNetworking</Name>
     </ProjectReference>
+    <ProjectReference Include="LeanCommon.csproj">
+      <Project>{032EB2A5-4871-3B6A-7992-37052CEE4C14}</Project>
+      <Name>LeanCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="PhotonChat.csproj">
       <Project>{144BE21E-7DE5-61D1-724E-41584A28A1A8}</Project>
       <Name>PhotonChat</Name>
@@ -852,6 +963,10 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
       <Project>{708A2DF8-EFC1-474C-9314-EF85B30330F8}</Project>
       <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="LeanTouch.csproj">
+      <Project>{B8E94047-6777-6B5F-B10C-AC156791CEF8}</Project>
+      <Name>LeanTouch</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
       <Project>{30633339-2223-6013-AAEA-CE802F212710}</Project>

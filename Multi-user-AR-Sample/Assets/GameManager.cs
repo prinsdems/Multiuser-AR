@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviourPunCallbacks
         Debug.Log("is tracking " + DefaultTrackableEventHandler.isTracking);
         foreach (GameObject gameObj in GameObject.FindObjectsOfType(typeof(GameObject)))
         {
-            if (gameObj.name == "Player(Clone)")
+            if (gameObj.name == "Skeleton(Clone)")
 {
                 gameObj.transform.SetParent(imageTarget.transform);
             }
@@ -60,15 +60,16 @@ public class GameManager : MonoBehaviourPunCallbacks
     }
     void SpawnPlayer()
     {
-        int rand = Random.Range(0, spawnPoints.Length);
-        while (pickedSpawnIndex.Contains(rand))
-        {
-            rand = Random.Range(0, spawnPoints.Length);
-        }
-        pickedSpawnIndex.Add(rand);
-        GameObject playerObject = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[rand].position, Quaternion.identity);
+        //int rand = Random.Range(0, spawnPoints.Length);
+        //while (pickedSpawnIndex.Contains(rand))
+        //{
+            //rand = Random.Range(0, spawnPoints.Length);
+        //}
+        pickedSpawnIndex.Add(0);
+        //GameObject playerObject = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[rand].position, Quaternion.identity);
         //intialize the player
-        playerObject.transform.Rotate(-90, 90, 0);
+        GameObject playerObject = PhotonNetwork.Instantiate(playerPrefabLocation, spawnPoints[0].position, Quaternion.Euler(-90,90,0));
+        
         PlayerController playerScript = playerObject.GetComponent<PlayerController>();
         playerScript.photonView.RPC("Initialize", RpcTarget.All, PhotonNetwork.LocalPlayer);
     }

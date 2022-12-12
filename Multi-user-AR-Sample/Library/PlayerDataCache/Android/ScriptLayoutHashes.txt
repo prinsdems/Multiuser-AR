@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Thesis/cloned-repo/Multiuser-AR/Multi-user-AR-Sample/multi-userARtest.apk
+C:/Github/Multiuser-AR/Multi-user-AR-Sample/multi-userARtest.apk
 SceneListBegin?
 Assets/Main.unity
 Assets/Game.unity
@@ -524,3 +524,32 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 47cd05cf11ce8beb2fd9a1522f58f5ec Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
+203fed2c689d819bfab67d217c628445 LeanTouch.dll:Lean.Touch.LeanFingerUpdate
+b8e4eaaf448c4a0ba66e09a6a266584d LeanTouch.dll:Lean.Touch.LeanFingerDown
+71bb6a6b6c8f052f948db64c7dd3ca4f LeanTouch.dll:Lean.Touch.LeanTouchEvents
+1ea55d7abe2307363a713249b70fc2ed LeanCommon.dll:Lean.Common.Examples.LeanGuide
+d8b8560f3f696ef8cee90373f9baffae LeanTouch.dll:Lean.Touch.LeanSelect
+f62dcae39ad4413b4d7e6f45e39b3ff7 LeanTouch.dll:Lean.Touch.LeanTwistRotateAxis
+ee4e4134acfa8eef41e8cfc51fda3e6c LeanCommon.dll:Lean.Common.LeanRoll
+f10d468f1ab0d7dada1e6f5fcac0c6cb LeanCommon.dll:Lean.Common.LeanDestroy
+6c1ab29ddfcd6014cccb0aadc55da469 LeanCommon.dll:Lean.Common.LeanPlane
+ee6a55fd6f4f0f59591afbf34813acf4 LeanTouch.dll:Lean.Touch.LeanFingerSwipe
+71bb6a6b6c8f052f948db64c7dd3ca4f LeanCommon.dll:Lean.Common.Examples.LeanUpgradeEventSystem
+9003f5acf7f6d8d66621c38d4fe4413a LeanTouch.dll:Lean.Touch.LeanPulseScale
+6f41c321a64cc756e7376dfaaa0afcaf LeanTouch.dll:Lean.Touch.LeanTwistRotate
+94787cde64aea8d2ddd6cf5584f4b697 LeanTouch.dll:Lean.Touch.LeanInfoText
+964dce81080816542d4e5b1440191200 LeanTouch.dll:Lean.Touch.LeanTouch
+42fe00222779b82a8d29c7bc73497e09 LeanTouch.dll:Lean.Touch.LeanDragCamera
+e2efc7cfa5234245c18c3065917d8945 LeanCommon.dll:Lean.Common.LeanPath
+003f3e894b4e5f99d2fa47238a01d5be LeanTouch.dll:Lean.Touch.LeanSelectable
+e2f52a2fa7324153bdf87724213b6ac4 LeanTouch.dll:Lean.Touch.LeanFingerOld
+564363b71973ff9b7c6dafd1d3a1fcfb LeanCommon.dll:Lean.Common.Examples.LeanLinkTo
+660d2f70485872334bdd46055aedec14 LeanTouch.dll:Lean.Touch.LeanPinchScale
+9277194e3007f91c41cc4dd392ebc5cb LeanTouch.dll:Lean.Touch.LeanSelectableSpriteRendererColor
+4cfbbfc6416a7a18c41a929391789094 LeanTouch.dll:Lean.Touch.LeanFingerTap
+9277194e3007f91c41cc4dd392ebc5cb LeanTouch.dll:Lean.Touch.LeanSelectableGraphicColor
+ba956cd002f286bd3f1422c7b8ccb6b6 LeanTouch.dll:Lean.Touch.LeanDragTranslate
+e2f52a2fa7324153bdf87724213b6ac4 LeanTouch.dll:Lean.Touch.LeanFingerUp
+4e0bfd1d29eec1f3cda6b997a7d81004 LeanTouch.dll:Lean.Touch.LeanDragTrail
+39a9bb9768c8206c97dc997d364a6275 LeanCommon.dll:Lean.Common.LeanSpawn
+330f62fcfa21b2047340eab154927cfc LeanTouch.dll:Lean.Touch.LeanSelectableRendererColor

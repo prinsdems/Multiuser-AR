@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     private void Update()
     {
+        
         if (photonPlayer.IsLocal)
         {
             Movements();
