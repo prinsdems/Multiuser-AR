@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\GameManager.cs" />
+    <Compile Include="Assets\InfoController.cs" />
     <Compile Include="Assets\MenuManager.cs" />
+    <Compile Include="Assets\Model.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManager.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Button\ButtonManagerEditor.cs" />
     <Compile Include="Assets\Modern UI Pack\Scripts\Charts\PieChart.cs" />

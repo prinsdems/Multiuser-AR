@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public Rigidbody rig;
     public Player photonPlayer;
     public Text playerNickName;
+   
     [SerializeField]
     private float speed = 0.2f;
 
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
             rig.isKinematic = true;
         }
     }
-
+   
     private void Start()
     {
         speed = 0.2f;
@@ -49,6 +50,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         }
     }
 
+    
     void Movements()
     {
         float horizontal = CrossPlatformInputManager.GetAxisRaw("Horizontal");
